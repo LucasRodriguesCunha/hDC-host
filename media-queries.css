@@ -1,0 +1,201 @@
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 767px) {
+    nav {
+      height: 60px;
+    }
+    
+    .logo {
+      width: 40px;
+      margin-top: 10px;
+    }
+    
+    .navbar-items {
+      height: 60px;
+      line-height: 60px;
+      right: 30px;
+    }
+    
+    .navbar-items li,
+    .navbar-items a {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    
+    .banner h1 {
+      font-size: 36px;
+    }
+    
+    .banner p {
+      font-size: 24px;
+    }
+    
+    .serviços ul li {
+      flex-basis: 100%;
+      padding: 10px;
+    }
+    
+    .serviços ul li h3 {
+      margin-bottom: 15px;
+    }
+    
+    .serviços ul li p {
+      line-height: 20px;
+    }
+    
+    .planos-container {
+      flex-wrap: wrap;
+    }
+    
+    .planos {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+    }
+    
+    .domínio input[type=text] {
+      width: 100%;
+    }
+    
+    .domínio button {
+      padding: 10px 20px;
+      font-size: 20px;
+    }
+    
+    .contato input,
+    .contato textarea {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    .contato textarea {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para telas entre 768px e 991px */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    nav {
+      height: 70px;
+    }
+    
+    .logo {
+      width: 45px;
+      margin-top: 12px;
+    }
+    
+    .navbar-items {
+      height: 70px;
+      line-height: 70px;
+      right: 40px;
+    }
+    
+    .banner h1 {
+      font-size: 48px;
+    }
+    
+    .banner p {
+      font-size: 28px;
+    }
+    
+    .planos li {
+      width: 200px;
+      line-height: 40px;
+    }
+    
+    .domínio h3 {
+      font-size: 36px;
+    }
+    
+    .domínio p {
+      font-size: 20px;
+    }
+    
+    .domínio input[type=text] {
+      width: 50%;
+    }
+    
+    .domínio button {
+      padding: 12px 25px;
+      font-size: 22px;
+    }
+    
+    .contato input,
+    .contato textarea {
+      width: 250px;
+    }
+    
+    .contato textarea {
+      width: 400px;
+    }
+  }
+  
+  /* Estilos para telas maiores que 992px */
+  @media screen and (min-width: 992px) {
+    nav {
+      height: 80px;
+    }
+    
+    .logo {
+      width: 50px;
+      margin-top: 15px;
+    }
+    
+    .navbar-items {
+      height: 80px;
+      line-height: 80px;
+      right: 45px;
+    }
+    
+    .banner h1 {
+      font-size: 54px;
+    }
+    
+    .banner p {
+      font-size: 32px;
+    }
+    
+    .serviços ul {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .serviços ul li {
+      flex: 1 1 200px;
+      padding: 20px;
+    }
+    
+    .serviços ul li h3 {
+      margin-bottom: 25px;
+    }
+    
+    .planos-container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .planos li {
+      width: 250px;
+      line-height: 50px;
+    }
+    
+    .domínio input[type=text] {
+      width: 60%;
+    }
+    
+    .domínio button {
+      padding: 15px 30px;
+      font-size: 24px;
+    }
+    
+    .contato input,
+    .contato textarea {
+      width: 200px;
+    }
+    
+    .contato textarea {
+      width: 468px;
+    }
+  }
+  
